@@ -23,12 +23,12 @@
       <url>file:///tmp/maven-project-site</url>
     </site>
     <snapshotRepository>
-            <id>nexus</id>
-            <url>http://172.31.10.0:8081/repository/maven-snapshots/</url>
+            <id>mvn-nexus-Snapshot</id>
+            <url>http://3.10.176.176:8081/repository/mvn-nexus-Snapshot/</url>
         </snapshotRepository>
         <repository>
-            <id>nexus</id>
-            <url>http://172.31.10.0:8081/repository/maven-releases/</url>
+            <id>mvn-nexus-Release</id>
+            <url>http://3.10.176.176:8081/repository/mvn-nexus-Release/</url>
         </repository>
   </distributionManagement>
 
